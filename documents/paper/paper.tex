@@ -6,6 +6,7 @@
 \usepackage{hyperref}
 \usepackage{csquotes}
 \usepackage[a4paper]{geometry}
+\usepackage{graphicx}
 
 \usepackage[
     backend=biber,
@@ -25,7 +26,7 @@
 
 
 \title{Ethik im Umgang mit Daten}
-\author{Name des Autors}
+\author{D'Ambrosio Pietro}
 \date{\today}
 
 
@@ -34,24 +35,34 @@
 \maketitle
 
 \abstract{
-    Dies ist eine Vorlage für eine Maturarbeit in der Informatik am Gymnasium Muttenz. Sie dient dazu, die Arbeit schnell und einfach zu starten und sollte einen guten Überblick über die Arbeit bieten.
-}
+In diesem Dokument habe ich mich mit KI, Bias und mit der Frage 
+beschäftigt:Was sind die Risiken von Bias in KI-Systemen und wie kann man diese minimieren?}
 
 \tableofcontents
-
+\newpage
 \chapter{Einleitung}
+Eine Perfekte Einleitung ins Thema wäre eine von ChatGPT generierte 
+zusammenfassung über Daten, Ethik und KI zum zeigen wie hilfreich dieses Tool ist.
+"Künstliche Intelligenz (KI) verwendet Daten, um anhand von Mustern zu 
+erlernen und Entscheidungen zu treffen. Dadurch ist KI in vielen Bereichen 
+ein mächtiges Instrument. Die Ethik im Bereich der KI behandelt die moralischen 
+Fragen und Schwierigkeiten, die sich aus der Anwendung dieser Technologien ergeben, 
+vor allem in Bezug auf Fairness, Transparenz und Rechenschaftspflicht. Die Verbindung 
+zwischen KI, Daten und Ethik besteht darin, wie Daten gesammelt, genutzt und verarbeitet 
+werden, um die faire und unvoreingenommene Entscheidungsfindung von KI-Systemen zu gewährleisten. 
+Im Verlauf des Dokuments wird jedoch erläutert, warum dies unmöglich ist. Um sicherzustellen, 
+dass KI-Systeme die Rechte und Würde aller Menschen achten, sind ethische Grundsätze von entscheidender 
+Bedeutung."
 
-Hier kommt die Einführung. Der Text hier sollte eigentlich noch viel länger sein, so das hier nicht so merkwürdige Umbrüche entstehen.
 
-Ich kann weitere Kapitel auch importieren.
 
-\input{chap_methode.tex}
+\input{KI_einführung.tex}
+\input{Fragestellung.tex}
+\input{Bias_einführung.tex}
+\input{Bias_ursachen.tex}
+\input{Bias_folgen.tex}
+\input{Bias_lösungen.tex}
 
-\section{Etwas mit Quellen}
-
-Etwas mit Änderung hier am Ende.
-
-Wenn ich eine Quelle zitieren möchte, kann ich das ganze einfach am Ende des Satzes machen \citep{example}. Oder wie \citet{example} sagt, auch mitten im Text.
 
 \printbibliography
 
